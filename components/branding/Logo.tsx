@@ -27,9 +27,9 @@ export const Logo: React.FC<LogoProps> = ({
   const businessName = currentBusiness?.name || '';
   
   const sizes = {
-    sm: 'w-8 h-8',
-    md: 'w-10 h-10',
-    lg: 'w-12 h-12',
+    sm: 'w-10 h-10',
+    md: 'w-12 h-12',
+    lg: 'w-14 h-14',
   };
 
   const textSizes = {
@@ -47,8 +47,8 @@ export const Logo: React.FC<LogoProps> = ({
           sizes[size]
         )}>
           <Image
-            className="w-full h-full" 
-            src="/techcure.png" 
+            className="w-full h-full rounded-full" 
+            src="/logo.png" 
             alt={`${businessName} logo`}
             width={400}
             height={400}
@@ -58,14 +58,14 @@ export const Logo: React.FC<LogoProps> = ({
       )}
       
       {/* Text */}
-      {(variant === 'default' || variant === 'text-only') && (
+      {/* {(variant === 'default' || variant === 'text-only') && (
         <span className={cn(
           'font-bold text-foreground',
           textSizes[size]
         )}>
           {businessName}
         </span>
-      )}
+      )} */}
     </div>
   );
 
