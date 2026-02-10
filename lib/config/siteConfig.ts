@@ -18,7 +18,7 @@ export interface SiteConfig {
 export const SITE_CONFIG: SiteConfig = {
   appTitle: process.env.NEXT_PUBLIC_APP_TITLE || 'Sasage Products',
   appDescription:
-    process.env.NEXT_PUBLIC_APP_DESCRIPTION || 'Your trusted online shopping destination for quality products and services',
+    process.env.NEXT_PUBLIC_APP_DESCRIPTION || 'Your trusted online shop of quality sweet malambe from baobab fruit. We source the finest baobab fruits to bring you naturally sweet, nutrient-rich malambe that captures the authentic taste of African heritage. Each batch is carefully processed to preserve the natural goodness and unique flavor that makes malambe a beloved delicacy.',
   brandImageUrl:
     process.env.NEXT_PUBLIC_BRAND_IMAGE_URL || 'https://sasage-products.vercel.app/logo.png',
   defaultBusinessName: process.env.NEXT_PUBLIC_DEFAULT_BUSINESS_NAME || 'Sasage Products',
