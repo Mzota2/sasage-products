@@ -19,24 +19,24 @@ export default function AboutPageClient() {
 
   const coreValues = [
     {
-      icon: '💡',
-      title: 'Innovation',
-      description: 'Continuously pushing boundaries to develop groundbreaking solutions that redefine industry standards.',
-    },
-    {
       icon: '🛡️',
       title: 'Integrity',
       description: 'Operating with unwavering honesty, transparency, and ethical conduct in all our engagements.',
     },
     {
-      icon: '⚙️',
-      title: 'Excellence',
-      description: 'Striving for the highest quality in products and services, always exceeding expectations.',
+      icon: ' 👥',
+      title: 'Customer Oriented',
+      description: 'Putting our customers first, building lasting relationships through exceptional service and support.',
     },
     {
-      icon: '✓',
-      title: 'Customer Focus',
-      description: 'Prioritizing client needs and success, building lasting partnerships through dedicated support.',
+      icon: '🌿',
+      title: 'Health Focus',
+      description: 'Committed to promoting wellness through natural, nutrient-rich sweet malambe products.',
+    },
+    {
+      icon: '⭐',
+      title: 'Excellence',
+      description: 'Striving for the highest quality in products and services, always exceeding expectations.',
     },
   ];
 
